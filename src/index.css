@@ -1,0 +1,208 @@
+  /** семейство шрифтов     */
+
+
+
+
+  @font-face {
+    font-family: 'Qanelas';
+    src: url('./font/Qanelas-Medium.eot');
+    src: local('Qanelas Medium'), local('./font/Qanelas-Medium'),
+        url('./font/./font/Qanelas-Medium.eot?#iefix') format('embedded-opentype'),
+        url('./font/Qanelas-Medium.woff2') format('woff2'),
+        url('./font/Qanelas-Medium.woff') format('woff'),
+        url('./font/Qanelas-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Qanelas';
+    src: url('./font/Qanelas-UltraLight.eot');
+    src: local('Qanelas UltraLight'), local('./font/Qanelas-UltraLight'),
+        url('./font/Qanelas-UltraLight.eot?#iefix') format('embedded-opentype'),
+        url('./font/Qanelas-UltraLight.woff2') format('woff2'),
+        url('./font/Qanelas-UltraLight.woff') format('woff'),
+        url('./font/Qanelas-UltraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Qanelas';
+    src: url('./font/Qanelas-ExtraBold.eot');
+    src: local('Qanelas ExtraBold'), local('./font/Qanelas-ExtraBold'),
+        url('./font/Qanelas-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('./font/Qanelas-ExtraBold.woff2') format('woff2'),
+        url('./font/Qanelas-ExtraBold.woff') format('woff'),
+        url('./font/Qanelas-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  
+  
+  @font-face {
+    font-family: 'Qanelas';
+    src: url('./font/Qanelas-Heavy.eot');
+    src: local('Qanelas Heavy'), local('./font/Qanelas-Heavy'),
+        url('./font/Qanelas-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('./font/Qanelas-Heavy.woff2') format('woff2'),
+        url('./font/Qanelas-Heavy.woff') format('woff'),
+        url('./font/Qanelas-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  
+  
+  @font-face {
+    font-family: 'Qanelas';
+    src: url('./font/Qanelas-Thin.eot');
+    src: local('Qanelas Thin'), local('./font/Qanelas-Thin'),
+        url('./font/Qanelas-Thin.eot?#iefix') format('embedded-opentype'),
+        url('./font/Qanelas-Thin.woff2') format('woff2'),
+        url('./font/Qanelas-Thin.woff') format('woff'),
+        url('./font/Qanelas-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Qanelas';
+    src: url('./font/Qanelas-Bold.eot');
+    src: local('Qanelas Bold'), local('./font/Qanelas-Bold'),
+        url('./font/Qanelas-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./font/Qanelas-Bold.woff2') format('woff2'),
+        url('./font/Qanelas-Bold.woff') format('woff'),
+        url('./font/Qanelas-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Qanelas';
+    src: url('./font/Qanelas-Light.eot');
+    src: local('Qanelas Light'), local('./font/Qanelas-Light'),
+        url('./font/Qanelas-Light.eot?#iefix') format('embedded-opentype'),
+        url('./font/Qanelas-Light.woff2') format('woff2'),
+        url('./font/Qanelas-Light.woff') format('woff'),
+        url('./font/Qanelas-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  
+  
+  
+  
+  @font-face {
+    font-family: 'Qanelas';
+    src: url('./font/Qanelas-Black.eot');
+    src: local('Qanelas Black'), local('./font/Qanelas-Black'),
+        url('./font/Qanelas-Black.eot?#iefix') format('embedded-opentype'),
+        url('./font/Qanelas-Black.woff2') format('woff2'),
+        url('./font/Qanelas-Black.woff') format('woff'),
+        url('./font/Qanelas-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  
+  
+  
+  
+  
+  @font-face {
+    font-family: 'Qanelas';
+    src: url('./font/Qanelas-Regular.eot');
+    src: local('Qanelas Regular'), local('./font/Qanelas-Regular'),
+        url('./font/Qanelas-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./font/Qanelas-Regular.woff2') format('woff2'),
+        url('./font/Qanelas-Regular.woff') format('woff'),
+        url('./font/Qanelas-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  
+  
+  @font-face {
+    font-family: 'Qanelas';
+    src: url('./font/Qanelas-SemiBold.eot');
+    src: local('Qanelas SemiBold'), local('./font/Qanelas-SemiBold'),
+        url('./font/Qanelas-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('./font/Qanelas-SemiBold.woff2') format('woff2'),
+        url('./font/Qanelas-SemiBold.woff') format('woff'),
+        url('./font/Qanelas-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  
+  
+    /** семейство шрифтов */  
+  
+  /* ---ОБНУЛЕНИЕ------- */
+    
+
+  *,
+  *::before,
+  *::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+  }
+  
+  a, .link  {
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+     cursor: pointer;
+     color: inherit;
+  }
+  
+  ul,
+  ol,
+  li {
+    list-style: none;
+  }
+  
+  img {
+    vertical-align: top;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: inherit;
+    font-size: inherit;
+  }
+  input,textarea{
+    outline: none;
+  }
+  
+  html,
+  body {
+    height: 100%;
+  
+  }
+  body {
+    font-family: Qanelas;
+    
+     font-size: 20px;
+     color: #fff;
+  }
+  /* ---ОБНУЛЕНИЕ END------- */
+
+  [class*="__container"]{
+    padding: 0px 15px 0px 15px;
+    max-width: 1460px;
+    margin: 0px auto;
+  }
+:root {
+  background-color: #1E2538;
+}
+

@@ -1,0 +1,73 @@
+.label{
+   font-size: 15px;
+   line-height: 140.2%;
+   
+}
+.label div{
+   display: flex;
+   flex-wrap: wrap;
+}
+.label div a {
+   
+   color: #F2F60F;
+   line-height: 140.2%;
+text-decoration-line: underline;
+display: inline-block;
+
+}
+.label div span{
+   margin-right: 5px;
+}
+.label div  a:not(:first-child){
+   
+}
+.label div a:hover{
+   text-decoration: none;
+}
+
+.agreeinput{
+   transition: all 0.3s ease 0s;
+   opacity: 0;
+   z-index: -1;
+   position: absolute;
+}
+
+.agreeinput+label{
+   margin-bottom: 20px;
+   transition: all 0.3s ease 0s;
+   display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+
+.agreeinput+label::before {
+   content: '';
+   display: inline-block;
+   width: 17px;
+   height: 17px;
+   flex-shrink: 0;
+   flex-grow: 0;
+   border: 1px solid #F2F60F;
+   border-radius: 2px;
+   margin-right: 8.5px;
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: 50% 50%;
+}
+
+
+.agreeinput:checked+label::before{
+ 
+   background-color: #F2F60F;
+  background-image: url('../assets/arraow.svg') ;
+}
+
+.agreeinput:not(:disabled):not(:checked)+label:hover::before{
+   background-color: #F2F60F;
+}
+
+.agreeinput:disabled:not(:checked)+label::before{
+   border: 1px solid #363636;
+   background-color: transparent;
+
+}

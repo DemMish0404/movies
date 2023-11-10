@@ -1,0 +1,107 @@
+.signin {
+   padding: 45px 0px;
+   max-width: 422px;
+   margin: 0 auto;
+   
+   
+}
+.signin__title {
+   color: #FFF;
+   text-align: center;
+   margin-bottom: 35px;
+font-size: 40px;
+
+font-weight: 800;
+}
+.signin-form {
+}
+
+
+.form-signin {
+   display: flex;
+   flex-direction: column;
+   max-width: 422px;
+   
+}
+
+.for-form__input {
+   font-size: 17px;
+   padding: 20px 25px;
+   background-color: #1E2538;
+   color: rgb(255, 255, 255);
+   border-radius: 10px;
+   margin-bottom: 15px;
+}
+
+::placeholder{
+   color: rgba(255, 255, 255, 0.60);
+   font-family: Qanelas;
+}
+.for-form__first-btn {
+   transition: all 0.3s ease 0s;
+   color: #151A26;
+   font-weight: 600;
+   line-height: 166.5%; 
+   font-size: 17px;
+   margin-bottom: 15px;
+   padding: 15px;
+   border-radius: 10px;
+   background-color: #F2F60F;
+   
+}
+.for-form__first-btn:hover{
+   background-color: #fdff75;
+}
+.for-form__second-btn {
+   transition: all 0.3s ease 0s;
+   font-size: 17px;
+   color: #fff;
+   border-radius: 10px;
+background: #1E2538;
+   padding: 15px;
+   font-weight: 500;
+
+}
+.for-form__second-btn:hover{
+   background-color: #fdff75;
+   color: #151A26;
+}
+
+
+.signin__lower-block {
+   margin-top: 20px;
+   
+   display: flex;
+   flex-direction: column;
+   row-gap: 20px;
+}
+.signin__regain-pass {
+   text-align: center;
+   color: #3657CB;
+   font-weight: 500;
+line-height: 166.5%; /* 28.305px */
+text-decoration-line: underline;
+}
+.signin__regain-pass:hover{
+   color: #FFF;
+}
+.link {
+}
+.signin__soc-networks {
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   gap: 10px;
+}
+.signin__soc-network {
+   display: flex;
+   justify-content: center;
+   justify-items: center ;
+   border-radius: 10px;
+   min-height: 42px;
+   min-width: 42px;
+   background: #1E2538;
+}
+.signin__soc-network:hover{
+   background: #3657CB;
+}
